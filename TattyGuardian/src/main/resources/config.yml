@@ -1,0 +1,50 @@
+#Authors glockinmybape
+#Vk-glockinmybape https://vk.com/glockinmybape1337
+
+#право для обхода tattyguard.tabcomplete
+#BedrockFix Убирает возможность сломать бедрок в аду.
+#tabcomplete Фикс способа /ver , /abaut.
+#BlockLimiterChunk Ограничение количества блоков в чанке .
+#CrashPistons Фикс способа
+
+tabcomplete: true
+BedrockFix: true
+
+CrashPistons:
+  fix:
+    dispenser: true
+    dropper: true
+    piston: true
+    message: "§bSERVER &f: Вы не можете ставить раздачики/выбрасователи/поршни на этой высоте!"
+  limit:
+    dispenser: 250
+    dropper: 250
+    piston: 200
+
+BlockLimiterChunk:
+  setting:
+    limit: 10 #Максимальное количество блоков в чанке!
+    message: "§bSERVER &f: Нельзя ставить больше 10 данного блока!"
+    blocks:
+      - "TNT"
+      - "DROPPER"
+      - "DISPENSER"
+      - "HOPPER"
+      - "LEVER"
+      - "MOB_SPAWNER"
+      - "PISTON_BASE"
+      - "PISTON_STICKY_BASE"
+
+Command:
+  perms: '§bSERVER &f: &cНедостаточно прав :('
+  only_players: 'Эту команду могут писать только игроки!'
+  cmd_not_found: '§bSERVER &f: &cКоманды не существует!'
+  help:
+    - '&f---------- &7<&f&lTatty &b&lGuardian&7> &f----------'
+    - ''
+    - '&7#1. &f/tattyguard reload'
+    - ''
+    - '&f---------- &7<&f&lTatty &b&lGuardian&7> &f----------'
+  reload:
+    bad: '§bSERVER &f: &cКонфиг перезагружен с ошибками, чекните консоль'
+    successful: '§bSERVER &f: &aКонфиг перезагружен успешно'

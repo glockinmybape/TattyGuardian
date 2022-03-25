@@ -1,0 +1,9 @@
+org\glockinmybape\tattyguardian\listeners\Pistons.class
+org\glockinmybape\tattyguardian\TattyGuardian$1.class
+org\glockinmybape\tattyguardian\listeners\AntiTabCompleter.class
+org\glockinmybape\tattyguardian\TattyGuardian.class
+org\glockinmybape\tattyguardian\utils\config.class
+org\glockinmybape\tattyguardian\listeners\ChunkLimiter.class
+org\glockinmybape\tattyguardian\commands\AGCommand.class
+org\glockinmybape\tattyguardian\listeners\BedrockFixer.class
+org\glockinmybape\tattyguardian\utils\Utils.class

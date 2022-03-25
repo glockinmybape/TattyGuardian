@@ -1,0 +1,9 @@
+name: TattyGuardian
+version: '2.0'
+main: org.glockinmybape.tattyguardian.TattyGuardian
+authors: [ glockinmybape ]
+depend:
+  - TattyMYSQL
+commands:
+  tattyguard:
+    aliases: [tattyguardian]
